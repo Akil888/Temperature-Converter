@@ -1,0 +1,70 @@
+/* Reset and base layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background: #1e1e1e;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .converter-container {
+    background: #2a2a2a;
+    padding: 2rem;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 15px rgba(0, 255, 255, 0.15);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  
+  input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 1rem;
+    border: none;
+    border-radius: 5px;
+    background: #444;
+    color: white;
+  }
+  
+  .conversion-type {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .conversion-type label {
+    display: block;
+    margin: 0.5rem 0;
+  }
+  
+  .result {
+    font-size: 1.2rem;
+    color: #00ffff;
+  }
+  
+  /* Responsive */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    .result {
+      font-size: 1rem;
+    }
+  }
+  
